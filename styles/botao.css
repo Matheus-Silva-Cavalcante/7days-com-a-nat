@@ -1,0 +1,31 @@
+.botao-flutuante{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.botao-flutuante>button{
+    position: fixed;
+    bottom: 70px;   
+}
+
+.botao-flutuante>button{
+    background-color: #4894FF;
+    border: none;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botao-flutuante>button:hover{
+    background-color: #378aff;
+    box-shadow: 1px 1px #89baff;
+    transition: 0.5s;
+}
+
+.icon-maisicone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
